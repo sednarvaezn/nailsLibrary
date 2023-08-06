@@ -49,7 +49,9 @@ export default function Home() {
               description={""}
               imageUrl={activeImageUrl}
               show={showModal}
-              handleClose={() => setShowModal(false)}
+              handleClose={() => {
+                setActiveImageUrl(null), setShowModal(false);
+              }}
             />
           )}
           <Category
