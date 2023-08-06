@@ -25,6 +25,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4156584633093933"
+          crossOrigin="anonymous"
+        ></script>
         <title></title>
 
         <noscript>
