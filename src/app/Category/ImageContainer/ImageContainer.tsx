@@ -20,6 +20,7 @@ const ImageContainer = ({
         src={imageUrl}
         alt=""
         onClick={() => handleOnClick(imageUrl)}
+        fill={true}
       />
     </div>
   );
