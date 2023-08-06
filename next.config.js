@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["bucket.region.amazonaws.com"],
+    domains: ["nailslibrary.s3.amazonaws.com"],
   },
 };
 
