@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Dispatch } from "react";
 
 const ImageContainer = ({
@@ -15,7 +16,7 @@ const ImageContainer = ({
     <div className={`item thumb span-${span}`}>
       <h2>{description}</h2>
 
-      <img
+      <Image
         src={imageUrl}
         alt=""
         onClick={() => handleOnClick(imageUrl)}

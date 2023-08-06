@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ImageContainer from "../Category/ImageContainer/ImageContainer";
 import classes from "./Modal.module.css";
 import { Dispatch, useEffect, useRef } from "react";
@@ -24,6 +25,7 @@ const Modal = ({
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
+    //eslint-disable-nextline
   }, [newRef]);
 
   return show ? (
@@ -32,7 +34,7 @@ const Modal = ({
         ref={newRef}
         className={classes.container}
       >
-        <img
+        <Image
           src={imageUrl}
           alt=""
           className={classes.img}

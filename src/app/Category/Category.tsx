@@ -32,6 +32,7 @@ const Category = ({
             description={image.description}
             imageUrl={image.imageUrl}
             handleOnClick={setActiveImageUrl}
+            key={image.imageUrl}
           />
         );
       })}

@@ -20,7 +20,7 @@ export default function Home() {
     if (activeImageUrl && !showModal) {
       setShowModal(true);
     }
-  }, [activeImageUrl]);
+  }, [activeImageUrl, showModal]);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
